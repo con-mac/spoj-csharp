@@ -1,16 +1,14 @@
 // Obviously this isn't C# either, but that wasn't my choice ¯\_(ツ)_/¯
-//177 out of ?
+//131 points
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
 	int n;
-	for (int i=0;i<10;i++)
+	while (cin>>n)
 	{
-		cin>>n;
-		float suma = (float)((1+n)/(float)2)*n;
-		cout<<suma<<endl;
+		cout<<((1+n)/(float)2)*n<<endl;
 	}
 	return 0;
-} 
+}
